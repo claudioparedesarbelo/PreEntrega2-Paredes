@@ -1,0 +1,16 @@
+.NavBar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 40px 60px 40px 60px;
+    justify-content: space-around;
+}
+.Botones{
+    display: flex;
+}
+.Botones button{
+    margin-right: 20px;
+}
+.LogoNike img{
+    width: 100px;
+}

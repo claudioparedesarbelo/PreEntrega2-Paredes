@@ -1,0 +1,7 @@
+.BackGroundImage {
+    display: flex;
+    color: aliceblue;
+    width: auto;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
