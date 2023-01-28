@@ -21,7 +21,7 @@ const Item = (props) => {
                 <Card.Text>
                     {nombre}
                 </Card.Text>
-                <Link to={`/producto/${id}`}> Ver Detalle del Producto </Link>
+                <Link to={`/producto/${id}`}> Ver Producto </Link>
                 <ItemCount stock={stock} />
                 
             </Card.Body>

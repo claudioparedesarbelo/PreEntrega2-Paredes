@@ -5,6 +5,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css';
 
+import ItemDetailContainer from './components/itemDetailContainer/ItemDetailContainer';
 import NavBar from './components/navbar/NavBar';
 import Footer from './components/footer/Footer';
 import Home from './components/home/Home';
@@ -22,7 +23,8 @@ root.render(
       <Routes>
       <Route exact path='/' element={<ItemListContainer/>}/>
       <Route exact path='/home' element={<Home/>}/>   
-      <Route exact path='/productos' element={<ItemListContainer/>}/>    
+      <Route exact path='/productos' element={<ItemListContainer/>}/>  
+      <Route exact path='/producto/:productoId' element={<ItemDetailContainer/>}/>    
       <Route exact path='/zapatillas' element={<ItemListContainer/>}/> 
       <Route exact path='/pantalones' element={<ItemListContainer/>}/>
       <Route exact path='/buzos' element={<ItemListContainer/>}/>
