@@ -1,17 +1,33 @@
+import { useState, useEffect } from 'react'
+
 import './ItemList.css'
 
 import Item from '../item/Item'
 
-const ItemList = () => {
+const ItemList = (props) => {
+
+    const [productos,setProductos] = useState([])
+
+   
+    useEffect(()=>{
+        fetch('/data.json')
+        .then(res=>res.json())
+        .then(json=> setProductos(json.map(productos => <Item key={productos.id} id={"producto" + productos.id} data={productos}/>)))
+    
+    
+    },[])
+    
+        
+       
 
     return(
         <div>
-            <p>Este es el itemList</p>
-            <Item/>
-        </div>
+            
+            {productos}
+        </div> 
 
     )
 
-}
+}    
 
 export default ItemList

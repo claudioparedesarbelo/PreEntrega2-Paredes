@@ -1,6 +1,6 @@
 
-const data = [
-    {"id": 1, "articulo": "zapatillas", "nombre": "nike revolution 6 0454", "precio": 26159, "stock": 0, "imgUrl": "./img/zapatilla01.jpg"},
+[
+    {"id": 1, "articulo": "zapatillas", "nombre": "nike revolution 6 0454", "precio": 26159, "stock": 0, "imgUrl": "../src/assets/img/zapatilla01.jpg"},
     {"id": 2, "articulo": "pantalon", "nombre": "pantalon nike dri-fit cr7 en azul", "precio": 19799, "stock": 10, "imgUrl": "./img/pantalon01.webp"},
     {"id": 3, "articulo": "mochila", "nombre": "mochila nike brasilia jdi en salmon Y blanco", "precio": 11499, "stock": 12, "imgUrl": "./img/mochila01.webp"},
     {"id": 4, "articulo": "zapatillas", "nombre": "zuecos burrow nike", "precio": 20350, "stock": 5, "imgUrl": "./img/pantufla.jpg"},
@@ -23,8 +23,8 @@ const data = [
     {"id": 21, "articulo": "camiseta", "nombre": "remera nike sportswear en blanco hombre", "precio": 8799, "stock": 34, "imgUrl": "./img/remera01.webp"},
     {"id": 22, "articulo": "camiseta", "nombre": "camiseta nike dri-fit miler en negro hombre", "precio": 12499, "stock": 35, "imgUrl": "./img/camiseta02.webp"},
     {"id": 23, "articulo": "campera", "nombre": "campera nike dri-fit top full zip en verde", "precio": 26399, "stock": 15, "imgUrl": "./img/campera01.webp"},
-    {"id": 24, "articulo": "campera", "nombre": "campera nike repel wild miler en negro Y gris", "precio": 29699, "stock": 11, "imgUrl": "./img/campera02.webp"},
+    {"id": 24, "articulo": "campera", "nombre": "campera nike repel wild miler en negro Y gris", "precio": 29699, "stock": 11, "imgUrl": "./img/campera02.webp"}
     
 ] 
 
-
+ 

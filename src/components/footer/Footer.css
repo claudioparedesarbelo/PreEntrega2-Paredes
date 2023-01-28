@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.6);
+    background-color: white;
+}
+
+.footer a img{
+    width: 100px;
+}
+
+.iconos svg{
+    margin-left: 15px;
+}

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 
 import './NavBar.css'
 
@@ -11,17 +13,17 @@ import CardWidget from '../cardWidget/CardWidget'
 const  NavBar = () => {
 
     return(
-        <header className='NavBar'>
-            <div>
-                <a className='LogoNike' href='../../index.js'><img src= {Logo}></img></a>
-            </div>
-            <div className='Botones'>
-            <button type="button" class="btn btn-secondary">Productos</button>
-            <button type="button" class="btn btn-secondary">Remeras</button>
-            <button type="button" class="btn btn-secondary">Pantalones</button>
-            <button type="button" class="btn btn-secondary">Zapatillas</button>
-            <CardWidget />
-            </div>
+        <header className='header'>
+             <a href="./home" className="logo"><img src={Logo}></img>  </a>
+                <ul className="menu">
+                <li><Link to="/home">Home</Link></li>
+                <li><Link to="/productos">Productos</Link></li>
+                <li><Link to="/zapatillas">Zapatillas</Link></li>
+                <li><Link to="/pantalones">Pantalones</Link></li>
+                <li><Link to="/buzos">Buzos y Remeras</Link></li>
+                <li><Link to="/aboutUs">Nosotros</Link></li>
+                <li><a href="#a"><CardWidget cantidad="10" /></a></li>
+            </ul>
         </header>
     )
 }
