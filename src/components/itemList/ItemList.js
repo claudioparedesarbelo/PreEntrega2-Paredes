@@ -13,8 +13,6 @@ const ItemList = (props) => {
         fetch('/data.json')
         .then(res=>res.json())
         .then(json=> setProductos(json.map(productos => <Item key={productos.id} id={"producto" + productos.id} data={productos}/>)))
-    
-    
     },[])
     
         

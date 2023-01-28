@@ -14,7 +14,7 @@ const  NavBar = () => {
 
     return(
         <header className='header'>
-             <a href="./home" className="logo"><img src={Logo}></img>  </a>
+             <Link to= "/home" className="logo"><img src={Logo} alt=""></img></Link>
                 <ul className="menu">
                 <li><Link to="/home">Home</Link></li>
                 <li><Link to="/productos">Productos</Link></li>
@@ -22,7 +22,7 @@ const  NavBar = () => {
                 <li><Link to="/pantalones">Pantalones</Link></li>
                 <li><Link to="/buzos">Buzos y Remeras</Link></li>
                 <li><Link to="/aboutUs">Nosotros</Link></li>
-                <li><a href="#a"><CardWidget cantidad="10" /></a></li>
+                <li><Link to= "/CardWidget"><CardWidget cantidad="10" /></Link></li>
             </ul>
         </header>
     )

@@ -1,19 +1,23 @@
 
 import './ItemListContainer.css'
 
+
 import ItemList from '../itemList/ItemList'
 
 
  
 
 const ItemListContainer = () => {
-    
-    return(
+
+   
+
+    return( 
+
         
         <div className='main-section'>
             
            
-           <ItemList className='itemListContainer' />
+           <ItemList />
         </div>
     )
 }

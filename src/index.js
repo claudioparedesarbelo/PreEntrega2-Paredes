@@ -8,6 +8,7 @@ import './index.css';
 import NavBar from './components/navbar/NavBar';
 import Footer from './components/footer/Footer';
 import Home from './components/home/Home';
+import AboutUs from './components/aboutUs/AboutUs'
 import ItemListContainer from './components/itemListContainer/ItemListContainer';
 
 
@@ -22,6 +23,10 @@ root.render(
       <Route exact path='/' element={<ItemListContainer/>}/>
       <Route exact path='/home' element={<Home/>}/>   
       <Route exact path='/productos' element={<ItemListContainer/>}/>    
+      <Route exact path='/zapatillas' element={<ItemListContainer/>}/> 
+      <Route exact path='/pantalones' element={<ItemListContainer/>}/>
+      <Route exact path='/buzos' element={<ItemListContainer/>}/>
+      <Route exact path='/aboutUs' element={<AboutUs/>}/>  
       </Routes>
       <Footer/>
     </BrowserRouter>
@@ -29,4 +34,4 @@ root.render(
 ); 
 
 
-reportWebVitals();
+reportWebVitals();   
