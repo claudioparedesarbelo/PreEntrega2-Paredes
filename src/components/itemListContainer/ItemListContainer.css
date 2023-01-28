@@ -1,7 +1,7 @@
-.BackGroundImage {
+.main-section {
+    display: flex
+
+}
+.itemListContainer {
     display: flex;
-    color: aliceblue;
-    width: auto;
-    background-repeat: no-repeat;
-    height: 100vh;
 }

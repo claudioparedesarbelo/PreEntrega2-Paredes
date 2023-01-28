@@ -13,7 +13,7 @@ const ItemListContainer = () => {
         <div className='main-section'>
             
            
-           <ItemList />
+           <ItemList className='itemListContainer' />
         </div>
     )
 }

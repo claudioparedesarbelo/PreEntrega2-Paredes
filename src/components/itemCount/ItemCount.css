@@ -1,4 +1,17 @@
 .box-count {
     display: flex;
+       
+}
+.box-count button{
+    background-color: white;
+}
+.box-count-children {
+    display: flex;
     
+    
+}
+.box-count-children button {
+    padding: 2px 5px 2px;
+    margin: 0 10px 0 10px;
+    background-color: white;
 }

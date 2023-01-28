@@ -4,7 +4,7 @@ const AboutUs = () => {
 
     return(
         <div>
-        <p>Hola</p>
+        <p>Hola somos nosotros</p>
         </div>
     )
 

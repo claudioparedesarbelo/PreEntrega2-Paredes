@@ -19,6 +19,7 @@ root.render(
     <BrowserRouter>
       <NavBar/>
       <Routes>
+      <Route exact path='/' element={<ItemListContainer/>}/>
       <Route exact path='/home' element={<Home/>}/>   
       <Route exact path='/productos' element={<ItemListContainer/>}/>    
       </Routes>
