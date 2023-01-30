@@ -14,7 +14,7 @@ const ItemDetail = (props) => {
         <article className='itemDetail-producto'>
             
             <Card className='card-separated'>
-            <Card.Header as="h5">{articulo}</Card.Header>
+            <Card.Header >{articulo}</Card.Header>
             <Card.Body>
                 <Card.Title>${precio}</Card.Title>
                 <Card.Text>

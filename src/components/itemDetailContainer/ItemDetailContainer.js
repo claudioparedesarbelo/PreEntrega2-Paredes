@@ -14,16 +14,15 @@ const ItemDetailContainer = () => {
     const { productoId } = useParams()
 
     useEffect(()=>{
-        fetch('/data.json')
-    .then(res=>res.json())
-    .then(productos=>setProductos(<ItemDetail key={productos.id} id={"producto" + productos.id} data={productos}/>))
-    },[productoId])
-
+        fetch(`/data.json/${productoId}`)
+        .then(res=>res.json())
+        .then(productos=>setProductos(<ItemDetail key={productos.id} id={"producto" + productos.id} data={productos} />))
+    }, [productoId])
 
     return (
         <section className='itemDetail-box'>
              
-            {productos}
+          {productos}
         </section>
     )
 

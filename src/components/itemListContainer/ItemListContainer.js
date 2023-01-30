@@ -2,7 +2,6 @@
 import './ItemListContainer.css'
 
 
-
 import ItemList from '../itemList/ItemList'
 
 
@@ -12,8 +11,7 @@ import ItemList from '../itemList/ItemList'
 
 const ItemListContainer = (props) => {
    
-   
-
+  
     return( 
 
         
